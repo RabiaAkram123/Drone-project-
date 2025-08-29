@@ -31,13 +31,13 @@ This project demonstrates a drone (or webcam)-based vision system with real-time
 Drone_Project/
 │
 ├── Resources/ # Contains haarcascade files and saved images
-├── pycache/ # Python cache files
+├── pycache/
 ├── README.md # Project documentation
-├── basic_movement.py # Module for basic drone movement controls
-├── face_tracking.py # Face detection and tracking script
-├── image_capture.py # Image capture and saving functions
-├── keypress_module.py # Keyboard input handling utilities
-├── mapping.py # Mapping inputs to drone commands or functions
-├── project_keyboard_img_capture.py # Main script combining keyboard control and image capture
-├── test_control.py # Testing drone controls and functions
+├── basic_movement.py 
+├── face_tracking.py 
+├── image_capture.py 
+├── keypress_module.py 
+├── mapping.py 
+├── project_keyboard_img_capture.py 
+├── test_control.py 
 
