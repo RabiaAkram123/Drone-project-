@@ -1,6 +1,5 @@
 # Drone-project-
 AI Robotics using opencv
-<<<<<<< HEAD
 🚁 Drone Project – Keyboard Control, Live Video, Image Capture & Face Tracking
 This project demonstrates a drone (or webcam)-based vision system with real-time video capture, keyboard control for interaction, face tracking using OpenCV, and the ability to capture and save images using keyboard input.
 
@@ -61,4 +60,4 @@ Drone_Project/
 ├── project_keyboard_img_capture.py 
 ├── test_control.py 
 
->>>>>>> 592646b925e66a81e88c5a13ddcd2291850b07af
+
