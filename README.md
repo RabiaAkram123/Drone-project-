@@ -1,33 +1,44 @@
-# Drone-project-
-AI Robotics using opencv
-🚁 Drone Project – Keyboard Control, Live Video, Image Capture & Face Tracking
-This project demonstrates a drone (or webcam)-based vision system with real-time video capture, keyboard control for interaction, face tracking using OpenCV, and the ability to capture and save images using keyboard input.
+# Drone Project
 
-🔄 Project Flow
-🎮 Keyboard Control – Press keys to interact (e.g., save frames, quit)
-📸 Live Video Capture – Real-time stream from webcam (or drone camera)
-🖼️ Image Capture – Press a key to take a snapshot
-💾 Image Save – Images are saved to the Resources/ folder
-😃 Face Tracking – Detect and highlight faces using Haarcascade
-🛠️ Technologies Used
-Python 3.x
-OpenCV
-NumPy
-pygame
-Haarcascade Classifier
-Git + GitHub
-## 📂 Project Structure
-Drone_Project/
+## Technologies Used
+
+This project utilizes the following technologies and tools to build and control the drone:
+
+- **Python 3** — 
+- **OpenCV** — For image processing and face tracking.
+- **Drone SDK (e.g., DJI Tello SDK or any other drone SDK you use)** — To communicate and send commands to the drone.
+- **Keyboard Input Handling** — 
+- **Mapping Algorithms** — 
+- **Other Libraries** — Such as `numpy`, `time`, 
+
+---
+
+## What I Have Done in This Project
+
+- Implemented **basic drone movements** (takeoff, landing, forward/backward, left/right, up/down).
+- Developed a **face tracking module** that uses computer vision to detect and follow a face autonomously.
+- Created scripts for **capturing images** directly from the drone’s camera.
+- Built **keyboard controls** to manually pilot the drone with simple keypresses.
+- Integrated **mapping functionalities** to help with navigation and obstacle avoidance.
+- Combined keyboard control and image capture for real-time operation.
+- Created test scripts to verify drone control features.
+
+---
+
+## Project Structure
+project_root/
 │
-├── Resources/ # Contains haarcascade files and saved images
-├── pycache/
-├── README.md # Project documentation
-├── basic_movement.py 
-├── face_tracking.py 
-├── image_capture.py 
-├── keypress_module.py 
-├── mapping.py 
-├── project_keyboard_img_capture.py 
-├── test_control.py 
+├── Resources/
+│   └── img/
+├── __pycache__/
+├── README.md
+├── basic_movement.py
+├── face_tracking.py
+├── image_capture.py
+├── keypress_module.py
+├── mapping.py
+├── project_keyboard_img_capture.py
+└── test_control.py
+
 
 
